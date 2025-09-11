@@ -10,8 +10,8 @@ int main() {
       cout << " ";
     }
     // start
-    for (int k = 1; k <= i + 2; k++) {
-      cout << "* ";
+    for (int k = 1; k <= (i * 2) - 1; k++) {
+      cout << "*";
     }
 
     // spaces
