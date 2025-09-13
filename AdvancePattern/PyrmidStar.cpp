@@ -16,7 +16,7 @@ int main() {
 
     // spaces
     for (int p = 1; p <= (n - i); p++) {
-      cout << " ";
+      cout << "*";
     }
     cout << endl;
   }
