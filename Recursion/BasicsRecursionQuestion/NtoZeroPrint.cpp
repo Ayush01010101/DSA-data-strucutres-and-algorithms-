@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
-int counter = 1;
-int printToN(int num) {
-  if (counter > num) {
+
+int NtoZero(int num) {
+  if (num == 0) {
     return 0;
   }
-  cout << counter++ << endl;
-  return printToN(num);
+  cout << num-- << endl;
+  return NtoZero(num);
 }
 
 int main() {
   int n;
   cout << "Enter any number";
   cin >> n;
-  printToN(n);
+  NtoZero(n);
   return 0;
 }
